@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>折腾 on Wayned&#39;s Blog</title>
+    <link>https://dingawm.github.io/categories/%E6%8A%98%E8%85%BE/</link>
+    <description>Recent content in 折腾 on Wayned&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 14 Jun 2023 18:40:40 +0800</lastBuildDate><atom:link href="https://dingawm.github.io/categories/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 Neovim 搭建 Go 编程环境</title>
+      <link>https://dingawm.github.io/posts/2023/06/14/go-programming-env-using-neovim/</link>
+      <pubDate>Wed, 14 Jun 2023 18:40:40 +0800</pubDate>
+      
+      <guid>https://dingawm.github.io/posts/2023/06/14/go-programming-env-using-neovim/</guid>
+      <description>什么是 Neovim ？ Neovim 搭配 NvChad 配置 Go LSP 环境</description>
+    </item>
+    
+    <item>
+      <title>如何利用 Hugo 搭建个人博客？</title>
+      <link>https://dingawm.github.io/posts/2023/06/11/how-to-construct-blog-by-hugo/</link>
+      <pubDate>Sun, 11 Jun 2023 22:29:00 +0800</pubDate>
+      
+      <guid>https://dingawm.github.io/posts/2023/06/11/how-to-construct-blog-by-hugo/</guid>
+      <description>1. 为什么搭建个人博客？ 日常工作还是需要学习一些新知识，以及也要对旧知识进行一些巩固复习，但是如果知识现用现查的话，很多东西会记得不是很牢靠，</description>
+    </item>
+    
+  </channel>
+</rss>

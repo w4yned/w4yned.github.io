@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IDE on Wayned&#39;s Blog</title>
+    <link>https://dingawm.github.io/tags/ide/</link>
+    <description>Recent content in IDE on Wayned&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 14 Jun 2023 18:40:40 +0800</lastBuildDate><atom:link href="https://dingawm.github.io/tags/ide/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 Neovim 搭建 Go 编程环境</title>
+      <link>https://dingawm.github.io/posts/2023/06/14/go-programming-env-using-neovim/</link>
+      <pubDate>Wed, 14 Jun 2023 18:40:40 +0800</pubDate>
+      
+      <guid>https://dingawm.github.io/posts/2023/06/14/go-programming-env-using-neovim/</guid>
+      <description>什么是 Neovim ？ Neovim 搭配 NvChad 配置 Go LSP 环境</description>
+    </item>
+    
+  </channel>
+</rss>
