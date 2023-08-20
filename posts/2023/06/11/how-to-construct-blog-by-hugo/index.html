@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+
+  
+    
+    
+      <link href="/css/fonts.css" rel="stylesheet" type="text/css">
+    
+  
+
+  
+  <title>如何利用 Hugo 搭建个人博客？</title>
+
+  
+  
+  <link rel="stylesheet" href="/css/hugo-octopress.css">
+
+  
+  
+
+  
+    <link rel="stylesheet" href="/css/fork-awesome.min.css">
+  
+
+  
+  
+    <link href="https://dingawm.github.io/favicon.png" rel="icon">
+  
+
+  
+  
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+
+  
+  <meta name="generator" content="Hugo 0.111.3">
+
+  
+  
+
+  
+  
+
+
+
+</head>
+<body>
+
+
+<header role="banner">
+<hgroup>
+  
+  <h1><a href="https://dingawm.github.io/">Wayned&#39;s Blog</a></h1>
+    <h2></h2>
+</hgroup></header>
+
+
+<nav role="navigation">
+<fieldset class="mobile-nav">
+  
+  <select onchange="location = this.value;">
+    <option value="">Navigate…</option>
+      
+  </select>
+</fieldset>
+
+
+<ul class="main-navigation">
+  
+  
+</ul>
+
+<ul class="subscription">
+  
+</ul>
+
+
+</nav>
+
+
+<div id="main">
+  <div id="content">
+    <div>
+      <article class="hentry" role="article">
+
+        
+        
+
+<header>
+  <p class="meta">Jun 11, 2023
+     - 2 minute read 
+    
+
+    
+  </p>
+  <h1 class="entry-title">
+    <a href="https://dingawm.github.io/posts/2023/06/11/how-to-construct-blog-by-hugo/">如何利用 Hugo 搭建个人博客？</a>
+  </h1>
+</header>
+
+
+        <div class="entry-content">
+          
+          
+          
+          <h1 id="1-为什么搭建个人博客">1. 为什么搭建个人博客？</h1>
+<p>日常工作还是需要学习一些新知识，以及也要对旧知识进行一些巩固复习，但是如果知识现用现查的话，很多东西会记得不是很牢靠，而且不利于知识体系的构建，因此，在日常学习的同时，最好也能养成记录学习笔记或者写博客的习惯。本博客就是使用 hugo 搭建的，本博客的第一篇博客就用来简单记录下如何使用 hugo 搭建个人博客。</p>
+<h1 id="2-hugo-是什么">2. Hugo 是什么？</h1>
+<p>Hugo 是一个 Go 语言编写的静态网站生成器，可以帮助我们快速搭建博客、文档这种静态网站。</p>
+<h1 id="3-快速使用-hugo-搭建个人博客">3. 快速使用 Hugo 搭建个人博客</h1>
+<p>如何安装 hugo 可以参考 hugo 官方文档
+<a href=""></a>，这里就不再多作说明了。
+安装好 hugo 之后，可以先使用 hugo 的命令，尝试熟悉 hugo 的命令，生成一个 demo 网站。使用如下命令快速生成一个项目：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site demo
+</span></span></code></pre></div><p>hugo 生成项目之后，还需要一步就可以预览博客网站了，那就是下载指定的主题到项目对应的 <code>theme</code> 目录下。hugo 支持许多种不同风格的主题，这些主题一般可以通过 GitHub 下载，比如通过如下命令可以下载 <code>hyde</code> 主题：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd themes
+</span></span><span style="display:flex;"><span>git clone https://github.com/spf13/hyde.git
+</span></span></code></pre></div><p>主题下载完成之后，就可以通过命令指定主题生成网站并预览了，切换到项目根目录下，执行如下命令：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server --theme<span style="color:#f92672">=</span>hyde
+</span></span></code></pre></div><p>该命令会启动 hugo 服务，并将服务地址输出在命令的结果中，直接点击或者复制到浏览器中打开就可以预览你的博客网站了。</p>
+<p>由于现在还没文章，因此只有博客的基本框架。hugo 支持使用命令快速生成文章基本内容，首先进入到 <code>demo</code> 目录中，使用如下的命令快速生成博客文档：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new posts/demo.md
+</span></span></code></pre></div><p>这句命令会在 <code>content</code> 目录底下创建 <code>posts</code> 目录，这个目录可以作为以后文档存放的文件夹，当然，这个目录也可以改成其他名称，甚至可以不需要这层目录。这个命令同时还会在 <code>posts</code> 目录里面生成 <code>demo.md</code> 文件，这个文件就是博客文档的 Markdown 文件，文档后缀应该也是可以支持其他格式的，不过一般都是使用 Markdown 格式。
+生成这些文件过后，再重新查看博客网站，就会发现博客网站上面已经有了刚才新生成的文章。而且得益于 hugo 的热加载能力，你在写文章时，只需要保存就可以试试预览你的文章效果。</p>
+
+        </div>
+        
+
+<footer>
+  <p class="meta">
+    <span class="byline author vcard">Posted by <span class="fn"></span></span>
+    
+    <time>Jun 11, 2023</time>
+    
+    </span>
+  </p>
+
+  
+
+  <p class="meta">
+    
+
+    
+      <a class="basic-alignment right" href="https://dingawm.github.io/posts/2023/06/14/go-programming-env-using-neovim/" title="使用 Neovim 搭建 Go 编程环境">使用 Neovim 搭建 Go 编程环境</a>
+    
+  </p>
+  
+</footer>
+
+      </article>
+    </div>
+    
+
+<aside class="sidebar thirds">
+  <section class="first odd">
+
+    
+
+    <p>
+      
+    </p>
+  </section>
+
+  
+  
+
+
+
+<ul class="sidebar-nav">
+  <li class="sidebar-nav-item">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+  
+  
+  </li>
+</ul>
+
+  
+
+  
+
+  
+  
+  
+</aside>
+
+  </div>
+</div>
+
+    <footer role="contentinfo">
+      <p>Copyright &copy; 2023  - <a href="https://dingawm.github.io/license/">License</a> -
+        <span class="credit">Powered by <a target="_blank" href="https://gohugo.io" rel="noopener noreferrer">Hugo</a> and <a target="_blank" href="https://github.com/parsiya/hugo-octopress/" rel="noopener noreferrer">Hugo-Octopress</a> theme.
+      </p>
+    </footer>
+
+    
+    
+
+
+
+    
+    
+    
+
+    
+  </body>
+</html>
+

@@ -2,10 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dingawm.github.io/posts/</loc>
+    <lastmod>2023-06-14T18:40:40+08:00</lastmod>
+  </url><url>
+    <loc>https://dingawm.github.io/</loc>
+    <lastmod>2023-06-14T18:40:40+08:00</lastmod>
+  </url><url>
+    <loc>https://dingawm.github.io/posts/2023/06/14/go-programming-env-using-neovim/</loc>
+    <lastmod>2023-06-14T18:40:40+08:00</lastmod>
+  </url><url>
+    <loc>https://dingawm.github.io/posts/2023/06/11/how-to-construct-blog-by-hugo/</loc>
+    <lastmod>2023-06-11T22:29:00+08:00</lastmod>
+  </url><url>
+    <loc>https://dingawm.github.io/about/</loc>
+    <lastmod>2023-05-25T22:44:07+08:00</lastmod>
+  </url><url>
+    <loc>https://dingawm.github.io/tags/</loc>
+    <lastmod>2023-05-25T22:44:07+08:00</lastmod>
+  </url><url>
+    <loc>https://dingawm.github.io/tags/tags/</loc>
+    <lastmod>2023-05-25T22:44:07+08:00</lastmod>
+  </url><url>
     <loc>https://dingawm.github.io/categories/</loc>
   </url><url>
     <loc>https://dingawm.github.io/tags/</loc>
-  </url><url>
-    <loc>https://dingawm.github.io/</loc>
   </url>
 </urlset>
