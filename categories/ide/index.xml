@@ -9,10 +9,10 @@
     <lastBuildDate>Wed, 14 Jun 2023 18:40:40 +0800</lastBuildDate><atom:link href="https://dingawm.github.io/categories/ide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用 Neovim 搭建 Go 编程环境</title>
-      <link>https://dingawm.github.io/posts/2023/06/14/%E4%BD%BF%E7%94%A8-neovim-%E6%90%AD%E5%BB%BA-go-%E7%BC%96%E7%A8%8B%E7%8E%AF%E5%A2%83/</link>
+      <link>https://dingawm.github.io/posts/go-programming-env-using-neovim/</link>
       <pubDate>Wed, 14 Jun 2023 18:40:40 +0800</pubDate>
       
-      <guid>https://dingawm.github.io/posts/2023/06/14/%E4%BD%BF%E7%94%A8-neovim-%E6%90%AD%E5%BB%BA-go-%E7%BC%96%E7%A8%8B%E7%8E%AF%E5%A2%83/</guid>
+      <guid>https://dingawm.github.io/posts/go-programming-env-using-neovim/</guid>
       <description>什么是 Neovim ？ Neovim 搭配 NvChad 配置 Go LSP 环境</description>
     </item>
     
