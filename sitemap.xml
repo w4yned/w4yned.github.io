@@ -2,8 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dingawm.github.io/tags/ai/</loc>
+    <lastmod>2023-08-26T22:37:42+08:00</lastmod>
+  </url><url>
+    <loc>https://dingawm.github.io/categories/ai/</loc>
+    <lastmod>2023-08-26T22:37:42+08:00</lastmod>
+  </url><url>
     <loc>https://dingawm.github.io/categories/</loc>
-    <lastmod>2023-06-14T18:40:40+08:00</lastmod>
+    <lastmod>2023-08-26T22:37:42+08:00</lastmod>
+  </url><url>
+    <loc>https://dingawm.github.io/tags/db/</loc>
+    <lastmod>2023-08-26T22:37:42+08:00</lastmod>
+  </url><url>
+    <loc>https://dingawm.github.io/posts/2023/08/26/intro_about_vector_db/</loc>
+    <lastmod>2023-08-26T22:37:42+08:00</lastmod>
+  </url><url>
+    <loc>https://dingawm.github.io/posts/</loc>
+    <lastmod>2023-08-26T22:37:42+08:00</lastmod>
+  </url><url>
+    <loc>https://dingawm.github.io/tags/</loc>
+    <lastmod>2023-08-26T22:37:42+08:00</lastmod>
+  </url><url>
+    <loc>https://dingawm.github.io/tags/</loc>
+    <lastmod>2023-08-26T22:37:42+08:00</lastmod>
+  </url><url>
+    <loc>https://dingawm.github.io/</loc>
+    <lastmod>2023-08-26T22:37:42+08:00</lastmod>
   </url><url>
     <loc>https://dingawm.github.io/tags/go/</loc>
     <lastmod>2023-06-14T18:40:40+08:00</lastmod>
@@ -15,18 +39,6 @@
     <lastmod>2023-06-14T18:40:40+08:00</lastmod>
   </url><url>
     <loc>https://dingawm.github.io/tags/nvim/</loc>
-    <lastmod>2023-06-14T18:40:40+08:00</lastmod>
-  </url><url>
-    <loc>https://dingawm.github.io/posts/</loc>
-    <lastmod>2023-06-14T18:40:40+08:00</lastmod>
-  </url><url>
-    <loc>https://dingawm.github.io/tags/</loc>
-    <lastmod>2023-06-14T18:40:40+08:00</lastmod>
-  </url><url>
-    <loc>https://dingawm.github.io/tags/</loc>
-    <lastmod>2023-06-14T18:40:40+08:00</lastmod>
-  </url><url>
-    <loc>https://dingawm.github.io/</loc>
     <lastmod>2023-06-14T18:40:40+08:00</lastmod>
   </url><url>
     <loc>https://dingawm.github.io/posts/2023/06/14/go-programming-env-using-neovim/</loc>
