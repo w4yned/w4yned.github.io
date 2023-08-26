@@ -34,5 +34,15 @@
       <description>1. 为什么搭建个人博客？ 日常工作还是需要学习一些新知识，以及也要对旧知识进行一些巩固复习，但是如果知识现用现查的话，很多东西会记得不是很牢靠，</description>
     </item>
     
+    <item>
+      <title>My First Post</title>
+      <link>https://dingawm.github.io/posts/my-first-post/</link>
+      <pubDate>Thu, 25 May 2023 22:44:07 +0800</pubDate>
+      
+      <guid>https://dingawm.github.io/posts/my-first-post/</guid>
+      <description>Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!</description>
+    </item>
+    
   </channel>
 </rss>
