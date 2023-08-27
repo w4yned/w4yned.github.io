@@ -25,14 +25,5 @@
       <description>为什么学习高性能 MySQL ？ 虽然日常工作基本都是 CRUD，似乎不需要对 MySQL 有太多的了解。但是对于请求量级比较大的服务来说，性能始终是一个绕不开的话题，</description>
     </item>
     
-    <item>
-      <title></title>
-      <link>https://dingawm.github.io/notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dingawm.github.io/notes/</guid>
-      <description>笔记 读书笔记切记不能完全只是摘抄书上的内容，要有粗有细，更要有自己的理解。 当然，现在还只是在向着这个目标前进。</description>
-    </item>
-    
   </channel>
 </rss>

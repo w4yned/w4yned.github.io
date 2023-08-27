@@ -70,14 +70,5 @@
       <description>介绍 目前在一家国内的公司做 Go 业务开发，感觉平时的工作比较无聊，希望通过自学和博客能找回当时想从事计算机的初衷。 关于博客 博客目前还是在初期建设</description>
     </item>
     
-    <item>
-      <title></title>
-      <link>https://dingawm.github.io/notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dingawm.github.io/notes/</guid>
-      <description>笔记 读书笔记切记不能完全只是摘抄书上的内容，要有粗有细，更要有自己的理解。 当然，现在还只是在向着这个目标前进。</description>
-    </item>
-    
   </channel>
 </rss>
