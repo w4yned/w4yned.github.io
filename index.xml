@@ -35,21 +35,21 @@
     </item>
     
     <item>
-      <title> 关于</title>
-      <link>https://dingawm.github.io/about/</link>
-      <pubDate>Thu, 25 May 2023 22:44:07 +0800</pubDate>
-      
-      <guid>https://dingawm.github.io/about/</guid>
-      <description>Introduction This is bold text, and this is emphasized text. Visit the Hugo website!</description>
-    </item>
-    
-    <item>
       <title>Tags</title>
       <link>https://dingawm.github.io/tags/tags/</link>
       <pubDate>Thu, 25 May 2023 22:44:07 +0800</pubDate>
       
       <guid>https://dingawm.github.io/tags/tags/</guid>
       <description>Introduction Go Rust [AI] </description>
+    </item>
+    
+    <item>
+      <title>关于</title>
+      <link>https://dingawm.github.io/about/</link>
+      <pubDate>Thu, 25 May 2023 22:44:07 +0800</pubDate>
+      
+      <guid>https://dingawm.github.io/about/</guid>
+      <description>介绍 目前在一家国内的公司做 Go 业务开发，感觉平时的工作比较无聊，希望通过自学和博客能找回当时想从事计算机的初衷。 关于博客 博客目前还是在初期建设</description>
     </item>
     
     <item>

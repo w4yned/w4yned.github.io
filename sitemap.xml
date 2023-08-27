@@ -38,7 +38,10 @@
     <loc>https://dingawm.github.io/categories/ide/</loc>
     <lastmod>2023-06-14T18:40:40+08:00</lastmod>
   </url><url>
-    <loc>https://dingawm.github.io/tags/nvim/</loc>
+    <loc>https://dingawm.github.io/tags/neovim/</loc>
+    <lastmod>2023-06-14T18:40:40+08:00</lastmod>
+  </url><url>
+    <loc>https://dingawm.github.io/tags/vim/</loc>
     <lastmod>2023-06-14T18:40:40+08:00</lastmod>
   </url><url>
     <loc>https://dingawm.github.io/posts/2023/06/14/go-programming-env-using-neovim/</loc>
@@ -59,10 +62,10 @@
     <loc>https://dingawm.github.io/categories/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2023-06-11T22:29:00+08:00</lastmod>
   </url><url>
-    <loc>https://dingawm.github.io/about/</loc>
+    <loc>https://dingawm.github.io/tags/tags/</loc>
     <lastmod>2023-05-25T22:44:07+08:00</lastmod>
   </url><url>
-    <loc>https://dingawm.github.io/tags/tags/</loc>
+    <loc>https://dingawm.github.io/about/</loc>
     <lastmod>2023-05-25T22:44:07+08:00</lastmod>
   </url><url>
     <loc>https://dingawm.github.io/notes/</loc>
