@@ -140,7 +140,7 @@
     
   </p>
   <h1 class="entry-title">
-     利用 Hugo 搭建个人博客（一） 
+    <a href="https://dingawm.github.io/posts/2023/06/11/construct-blog-by-hugo-1/">利用 Hugo 搭建个人博客（一）</a>
   </h1>
 </header>
 
@@ -158,7 +158,7 @@
 <p>如何安装 hugo 可以参考
 <a href="https://gohugo.io/documentation/" target="_blank" rel="noopener">hugo 官方文档</a>，这里就不再多作说明了。
 安装好 hugo 之后，可以先使用 hugo 的命令，尝试熟悉 hugo 的命令，生成一个 demo 网站。使用如下命令快速生成一个项目：</p>
-<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site demo
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site demo
 </span></span></code></pre></div><p>Hugo  初始化项目之后，<code>demo</code> 文件夹底下会有 8 个文件夹和 1 个配置文件：</p>
 <ul>
 <li>archetypes: 存放用 hugo 命令新建文章文件时所使用的 front matter 模板</li>
@@ -173,28 +173,28 @@
 </ul>
 <h2 id="下载和配置主题">下载和配置主题</h2>
 <p>hugo 生成项目之后，还需要一步就可以预览博客网站了，那就是下载指定的主题到项目对应的 <code>theme</code> 目录下。hugo 支持许多种不同风格的主题，这些主题一般可以通过 GitHub 下载，比如我使用的是 hugo-octopress ，可以通过如下命令可以下载 <code>hugo-octopress</code> 主题：</p>
-<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#b58900">cd</span> themes
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">cd</span> themes
 </span></span><span style="display:flex;"><span>git clone https://github.com/parsiya/Hugo-Octopress.git
 </span></span></code></pre></div><h2 id="启动服务并预览网站">启动服务并预览网站</h2>
 <p>主题下载完成之后，就可以通过命令指定主题生成网站并预览了，切换到项目根目录下，执行如下命令：</p>
-<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server --theme<span style="color:#719e07">=</span>hugo-octopress
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server --theme=hugo-octopress
 </span></span></code></pre></div><p>该命令会启动 hugo 服务，并将服务地址输出在命令的结果中，直接点击或者复制到浏览器中打开就可以预览你的博客网站了。</p>
 <h2 id="创建文章">创建文章</h2>
 <p>由于现在还没文章，因此只有博客的基本框架。hugo 支持使用命令快速生成文章基本内容，首先进入到 <code>demo</code> 目录中，使用如下的命令快速生成博客文档：</p>
-<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new posts/demo.md
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new posts/demo.md
 </span></span></code></pre></div><p>这句命令会在 <code>content</code> 目录底下创建 <code>posts</code> 目录，这个目录可以作为以后文档存放的文件夹。这个命令同时还会在 <code>posts</code> 目录里面生成 <code>demo.md</code> 文件，这个文件就是博客文档的 Markdown 文件。
 用 <code>hugo new</code> 命令会使用 <code>archetypes</code> 文件夹中的 front matter 模板初始化文章文件，这样就不用自己手动添加这些内容了</p>
 <p>生成这些文件过后，再重新查看博客网站，就会发现博客网站上面已经有了刚才新生成的文章。而且得益于 hugo 的热加载能力，你在写文章时，只需要保存就可以试试预览你的文章效果。</p>
 <h2 id="url-管理">URL 管理</h2>
 <p>如果没有改变存放文章的文件夹，一般是使用如下命令格式化 URL：</p>
-<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[permalinks]
-</span></span><span style="display:flex;"><span>  <span style="color:#586e75"># change the post URL to look like the old ones</span>
-</span></span><span style="display:flex;"><span>  post = <span style="color:#2aa198">&#34;/post/:year/:month/:day/:title/&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[permalinks]
+</span></span><span style="display:flex;"><span>  <span style="color:#007f7f"># change the post URL to look like the old ones</span>
+</span></span><span style="display:flex;"><span>  post = <span style="color:#0ff;font-weight:bold">&#34;/post/:year/:month/:day/:title/&#34;</span>
 </span></span></code></pre></div><p>表示将 <code>content/post</code> 文件夹底下的文章的 URL 格式化成 <code>/post/year/month/day/title/</code>。
 由于我改变了存放文章的文件夹，因此修改了下对应的文件夹和 URL 路径。另外由于我的文章标题中有中文，但是又不希望 URL 中出现中文，因此我使用的是 <code>filename</code>。</p>
-<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[permalinks]
-</span></span><span style="display:flex;"><span>  <span style="color:#586e75"># change the post URL to look like the old ones</span>
-</span></span><span style="display:flex;"><span>  posts = <span style="color:#2aa198">&#34;/posts/:year/:month/:day/:filename/&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[permalinks]
+</span></span><span style="display:flex;"><span>  <span style="color:#007f7f"># change the post URL to look like the old ones</span>
+</span></span><span style="display:flex;"><span>  posts = <span style="color:#0ff;font-weight:bold">&#34;/posts/:year/:month/:day/:filename/&#34;</span>
 </span></span></code></pre></div><p>表示将 <code>posts</code> 文件夹底下的文件的 URL 全部格式化成 <code>/posts/year/month/day/filename</code>。等号左边的 posts 是被格式化 URL 的文件夹，等号右边的 <code>posts</code> 是出现在实际 URL 中的路径。
 此外，根据其他文章中提到的，还可以使用在 archetypes/default.md 中新增一个 <code>slug</code> 字段，然后在 URL 格式化命令中将 <code>title</code> 或者 <code>filename</code> 替换成 <code>slug</code>。</p>
 <h1 id="参考">参考</h1>
@@ -205,6 +205,8 @@
 <a href="https://cuttontail.blog/blog/create-a-wesite-using-github-pages-and-hugo/" target="_blank" rel="noopener">如何用 GitHub Pages + Hugo 搭建个人博客</a></li>
 <li>
 <a href="https://liujiacai.net/blog/2020/12/05/hexo-to-hugo/" target="_blank" rel="noopener">博客系统迁移：Hexo 到 Hugo</a></li>
+<li>
+<a href="https://blog.lxdlam.com/post/9cc3283b/" target="_blank" rel="noopener">Hugo 永久链接</a></li>
 </ul>
 
         </div>
