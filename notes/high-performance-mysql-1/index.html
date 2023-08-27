@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
@@ -11,7 +9,7 @@
   
 
   
-  <title>关于</title>
+  <title>高性能 MySQL（一）目的及总体介绍</title>
 
   
   
@@ -127,26 +125,40 @@
   <div id="content">
     <div>
       <article class="hentry" role="article">
-        <header>
-          <h1 class="entry-title">
-            关于 
-          </h1>
-          <p class="meta">May 25, 2023 - 1 minute read - 
 
-          
+        
+        
 
-          </p>
-        </header>
+<header>
+  <p class="meta">Aug 27, 2023
+     - 3 minute read 
+    
+
+    
+    
+      - <a class="label" href="https://dingawm.github.io/categories/db/">DB </a><a class="label" href="https://dingawm.github.io/categories/mysql/">MySQL </a>
+    
+  </p>
+  <h1 class="entry-title">
+     高性能 MySQL（一）目的及总体介绍 
+  </h1>
+</header>
+
+
         <div class="entry-content">
           
           
           
-          <h1 id="介绍">介绍</h1>
-<p>目前在一家国内的公司做 Go 业务开发，感觉平时的工作比较无聊，希望通过自学和博客能找回当时想从事计算机的初衷。</p>
-<h1 id="关于博客">关于博客</h1>
-<p>博客目前还是在初期建设中，很多内容还是草稿形式的。
-分类是有层级关系的，而且会存在专有名词的大小写格式。
-标签是无层级关系的，全部都是小写。</p>
+          <h1 id="为什么学习高性能-mysql-">为什么学习高性能 MySQL ？</h1>
+<p>虽然日常工作基本都是 CRUD，似乎不需要对 MySQL 有太多的了解。但是对于请求量级比较大的服务来说，性能始终是一个绕不开的话题，而由于业务逻辑基本都是 CRUD，因此性能的瓶颈一般都出现在对于数据库的操作上。如何设计表的索引以提高查询性能？遇到服务可用性下降，初步判断是数据库操作的性能问题时，应该如何进一步排查？如何配置服务器的设置以让服务器的性能更优？为何较大的业务都要考虑复制以及复制带来的问题？如何实现高可用性？如何对数据进行备份和恢复？这些问题，我们或多或少都会在业务的开发过程中遇到，如何理解这些问题，进而解决这些问题就是我们学习《高性能 MySQL》的主要原因之一。</p>
+<h1 id="本书的大概内容">本书的大概内容</h1>
+<p>本书第一章首先介绍了 MySQL 的架构和几种存储引擎。想要知道为什么会出现性能上的问题以及如何解决这些问题，首先要了解目标的架构设计，即带来这个问题的底层原因是什么？当然，这个底层原因一般来自两个层面，一个是机制层面上的（或者说架构的设计层面），即底层为什么采用这种机制？这样机制会带来这些问题的话，能不能不用这个机制，换成采用其他机制？第二个层面是策略层面上的（或者说架构到实际应用的具体实现层面），即对于同样一种机制，采用不同的实现策略也会带来不一样的问题。（因此，一个应用系统主要分为两个层面，首先是架构设计层面，即对应着解决问题的机制；然后是具体实现层面，即对应着实现机制的具体策略）
+第二和第三章介绍了如何定量评估这些问题和进行问题分析的一种常用方法。
+之后的第四到第六章连续介绍了三个关于数据库逻辑设计和物理设计基础的话题。逻辑设计主要是不同数据类型的细节差别以及表设计的原则。物理设计则主要是索引，这个是影响数据表性能的一个重要因素。最后则是分析了 MySQL 的查询是如何执行的，以及如何利用查询优化器。
+第七章介绍了 MySQL 的一些高级特性，比如分区、存储引擎、触发器以及字符集，并且介绍了这些高级特性是如何工作的。
+接下来的第八章和第九章则是讲述了如何让 MySQL、应用程序及硬件一起很好地工作。
+第十章讨论了 MySQL 的杀手级特性：能够设置多个服务器从一台主服务器同步数据，即复制。但是正如前面所说，复制也会用户带来一些更为复杂的问题。第十一章讨论了什么是可扩展性。什么是可扩展性以及为什么需要可扩展性，对于经历过业务数据量级增长需要升级数据库的同学应该比较有所体会。第十二章讲述了和扩展相关但又完全不同的主题：如何保障 MySQL 稳定而正确地持续运行，即高可用。高可用是数据库系统中很重要的一个特性，相对于代码的“可用性”，数据库的可用性显然更重要，毕竟如果关键的数据系统出了问题，就是整个业务级别的问题。第十三章介绍了 MySQL 与云环境的结合。第十四章介绍了应用层面的优化，即全方位的优化（full-stack optimization），就是从前端到后端的整体优化。第十五章讨论了 MySQL 数据库的各种备份和恢复机制和策略，以此来保证对于在各种灾难下的数据最终可恢复。
+最后第十六章则介绍了一些可以帮助用户更有效地管理和监控 MySQL 服务器的工具。</p>
 
         </div>
         
@@ -155,7 +167,12 @@
   <p class="meta">
     <span class="byline author vcard">Posted by <span class="fn">wayne ding</span></span>
     
-    <time>May 25, 2023</time>
+    <time>Aug 27, 2023</time>
+    
+      <span class="categories">
+        Tags:
+        
+          <a class="category" href="https://dingawm.github.io/tags/db">db</a>  <a class="category" href="https://dingawm.github.io/tags/mysql">mysql</a>  
     
     </span>
   </p>
@@ -164,7 +181,11 @@
 
   <p class="meta">
     
+        <a class="basic-alignment left" href="https://dingawm.github.io/notes/" title=""></a>
+    
 
+    
+      <a class="basic-alignment right" href="https://dingawm.github.io/notes/high-performance-mysql-2/" title="高性能 MySQL（二）MySQL 架构与历史">高性能 MySQL（二）MySQL 架构与历史</a>
     
   </p>
   

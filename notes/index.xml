@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>db on Wayned&#39;s Blog</title>
-    <link>https://dingawm.github.io/tags/db/</link>
-    <description>Recent content in db on Wayned&#39;s Blog</description>
+    <title>Wayned&#39;s Blog</title>
+    <link>https://dingawm.github.io/notes/</link>
+    <description>Recent content on Wayned&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 27 Aug 2023 21:51:01 +0800</lastBuildDate><atom:link href="https://dingawm.github.io/tags/db/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Aug 2023 21:51:01 +0800</lastBuildDate><atom:link href="https://dingawm.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>高性能 MySQL（二）MySQL 架构与历史</title>
       <link>https://dingawm.github.io/notes/high-performance-mysql-2/</link>
@@ -26,12 +26,12 @@
     </item>
     
     <item>
-      <title>初步了解向量数据库</title>
-      <link>https://dingawm.github.io/posts/2023/08/26/intro-about-vector-db/</link>
-      <pubDate>Sat, 26 Aug 2023 22:37:42 +0800</pubDate>
+      <title></title>
+      <link>https://dingawm.github.io/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dingawm.github.io/posts/2023/08/26/intro-about-vector-db/</guid>
-      <description>什么是向量数据库？</description>
+      <guid>https://dingawm.github.io/notes/</guid>
+      <description>笔记 读书笔记切记不能完全只是摘抄书上的内容，要有粗有细，更要有自己的理解。 当然，现在还只是在向着这个目标前进。</description>
     </item>
     
   </channel>

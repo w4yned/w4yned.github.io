@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
@@ -12,7 +9,7 @@
   
 
   
-  <title>db</title>
+  <title>高性能 MySQL（二）MySQL 架构与历史</title>
 
   
   
@@ -31,7 +28,7 @@
   
 
   
-  <link href="/tags/db/index.xml" rel="alternate" type="application/rss+xml" title="Wayned&#39;s Blog" />
+  
 
   <meta name="description" content="" />
   <meta name="keywords" content="">
@@ -127,105 +124,69 @@
 <div id="main">
   <div id="content">
     <div>
-      <article role="article">
-        <header>
-          <h1 class="entry-title">
-            Tag: db
-          </h1>
-        </header>
-        <div id="blog-archives" class="category">
-          
-          <h2>
-            2023
-          </h2>
-          <article>
-            <h1>
-              <a href="https://dingawm.github.io/notes/high-performance-mysql-2/" title="高性能 MySQL（二）MySQL 架构与历史">高性能 MySQL（二）MySQL 架构与历史</a>
-            </h1>
-            <time>
-              <span class="month">Aug</span>
-              <span class="day">27</span>
-            </time>
-            <footer>
-              <span class="categories"> 
-                
-                
-                posted in:
-                 <a class="category" href="https://dingawm.github.io/categories/db">DB</a> <a class="category" href="https://dingawm.github.io/categories/mysql">MySQL</a>
-              </br>
-                
+      <article class="hentry" role="article">
 
-                
-                
-                tags:
-                 <a class="category" href="https://dingawm.github.io/tags/db">db</a> <a class="category" href="https://dingawm.github.io/tags/mysql">mysql</a>
-                
-              </span>
-            </footer>
-          </article>
-          
-          <h2>
-            2023
-          </h2>
-          <article>
-            <h1>
-              <a href="https://dingawm.github.io/notes/high-performance-mysql-1/" title="高性能 MySQL（一）目的及总体介绍">高性能 MySQL（一）目的及总体介绍</a>
-            </h1>
-            <time>
-              <span class="month">Aug</span>
-              <span class="day">27</span>
-            </time>
-            <footer>
-              <span class="categories"> 
-                
-                
-                posted in:
-                 <a class="category" href="https://dingawm.github.io/categories/db">DB</a> <a class="category" href="https://dingawm.github.io/categories/mysql">MySQL</a>
-              </br>
-                
+        
+        
 
-                
-                
-                tags:
-                 <a class="category" href="https://dingawm.github.io/tags/db">db</a> <a class="category" href="https://dingawm.github.io/tags/mysql">mysql</a>
-                
-              </span>
-            </footer>
-          </article>
-          
-          <h2>
-            2023
-          </h2>
-          <article>
-            <h1>
-              <a href="https://dingawm.github.io/posts/2023/08/26/intro-about-vector-db/" title="初步了解向量数据库">初步了解向量数据库</a>
-            </h1>
-            <time>
-              <span class="month">Aug</span>
-              <span class="day">26</span>
-            </time>
-            <footer>
-              <span class="categories"> 
-                
-                
-                posted in:
-                 <a class="category" href="https://dingawm.github.io/categories/ai">AI</a>
-              </br>
-                
+<header>
+  <p class="meta">Aug 27, 2023
+     - 1 minute read 
+    
 
-                
-                
-                tags:
-                 <a class="category" href="https://dingawm.github.io/tags/ai">ai</a> <a class="category" href="https://dingawm.github.io/tags/db">db</a>
-                
-              </span>
-            </footer>
-          </article>
+    
+    
+      - <a class="label" href="https://dingawm.github.io/categories/db/">DB </a><a class="label" href="https://dingawm.github.io/categories/mysql/">MySQL </a>
+    
+  </p>
+  <h1 class="entry-title">
+     高性能 MySQL（二）MySQL 架构与历史 
+  </h1>
+</header>
+
+
+        <div class="entry-content">
           
+          
+          
+          <p>[toc]</p>
+<h1 id="1-介绍">1. 介绍</h1>
+<p>要想解决日常工作中遇到的 MySQL 性能问题，充分发挥 MySQL 的性能，就必须了解其设计。
+MySQL 最重要、最与众不同的特性是它的存储引擎架构，这种架构的设计将查询处理（Query Processing）即其他系统任务（Server Task）和数据的存储、提取相分离。这种查询处理和存储分离的设计使得 MySQL 在使用时根据性能、特性以及其他需求来选择数据存储的方式。
+本篇将主要介绍下 MySQL 的服务架构、不同存储引擎之间的主要区别及重要性。</p>
+<h1 id="2-mysql-逻辑架构">2. MySQL 逻辑架构</h1>
+
         </div>
+        
+
+<footer>
+  <p class="meta">
+    <span class="byline author vcard">Posted by <span class="fn">wayne ding</span></span>
+    
+    <time>Aug 27, 2023</time>
+    
+      <span class="categories">
+        Tags:
+        
+          <a class="category" href="https://dingawm.github.io/tags/db">db</a>  <a class="category" href="https://dingawm.github.io/tags/mysql">mysql</a>  
+    
+    </span>
+  </p>
+
+  
+
+  <p class="meta">
+    
+        <a class="basic-alignment left" href="https://dingawm.github.io/notes/high-performance-mysql-1/" title="高性能 MySQL（一）目的及总体介绍">高性能 MySQL（一）目的及总体介绍</a>
+    
+
+    
+  </p>
+  
+</footer>
+
       </article>
     </div>
-
     
 
 <aside class="sidebar thirds">
