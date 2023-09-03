@@ -6,7 +6,16 @@
     <description>Recent content on Wayned&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 27 Aug 2023 21:51:01 +0800</lastBuildDate><atom:link href="https://dingawm.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Sep 2023 17:28:59 +0800</lastBuildDate><atom:link href="https://dingawm.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>初始化 Go 语言中的二维切片</title>
+      <link>https://dingawm.github.io/posts/2023/09/03/init-2d-slice-in-golang/</link>
+      <pubDate>Sun, 03 Sep 2023 17:28:59 +0800</pubDate>
+      
+      <guid>https://dingawm.github.io/posts/2023/09/03/init-2d-slice-in-golang/</guid>
+      <description>package main import &amp;#34;fmt&amp;#34; func main() { row, col := 4, 5 // 将 matrix 定义为一个二维切片 // 行列都未初始化 var matrix1 [][]int for i := 0; i &amp;lt; row; i++ { // 初始化一个长度为 col 的切片作为 matrix 的每行 rowVector := make([]int, col) // 由于</description>
+    </item>
+    
     <item>
       <title>高性能 MySQL（二）MySQL 架构与历史</title>
       <link>https://dingawm.github.io/notes/high-performance-mysql-2/</link>

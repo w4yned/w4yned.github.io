@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>go on Wayned&#39;s Blog</title>
-    <link>https://dingawm.github.io/tags/go/</link>
-    <description>Recent content in go on Wayned&#39;s Blog</description>
+    <title>array on Wayned&#39;s Blog</title>
+    <link>https://dingawm.github.io/tags/array/</link>
+    <description>Recent content in array on Wayned&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 03 Sep 2023 17:28:59 +0800</lastBuildDate><atom:link href="https://dingawm.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Sep 2023 17:28:59 +0800</lastBuildDate><atom:link href="https://dingawm.github.io/tags/array/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>初始化 Go 语言中的二维切片</title>
       <link>https://dingawm.github.io/posts/2023/09/03/init-2d-slice-in-golang/</link>
@@ -14,15 +14,6 @@
       
       <guid>https://dingawm.github.io/posts/2023/09/03/init-2d-slice-in-golang/</guid>
       <description>package main import &amp;#34;fmt&amp;#34; func main() { row, col := 4, 5 // 将 matrix 定义为一个二维切片 // 行列都未初始化 var matrix1 [][]int for i := 0; i &amp;lt; row; i++ { // 初始化一个长度为 col 的切片作为 matrix 的每行 rowVector := make([]int, col) // 由于</description>
-    </item>
-    
-    <item>
-      <title>使用 Neovim 搭建 Go 编程环境</title>
-      <link>https://dingawm.github.io/posts/2023/06/14/go-programming-env-using-neovim/</link>
-      <pubDate>Wed, 14 Jun 2023 18:40:40 +0800</pubDate>
-      
-      <guid>https://dingawm.github.io/posts/2023/06/14/go-programming-env-using-neovim/</guid>
-      <description>什么是 Neovim ？ Neovim 搭配 NvChad 配置 Go LSP 环境</description>
     </item>
     
   </channel>

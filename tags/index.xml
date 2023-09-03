@@ -6,7 +6,43 @@
     <description>Recent content in Tags on Wayned&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 27 Aug 2023 21:51:01 +0800</lastBuildDate><atom:link href="https://dingawm.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Sep 2023 17:28:59 +0800</lastBuildDate><atom:link href="https://dingawm.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>array</title>
+      <link>https://dingawm.github.io/tags/array/</link>
+      <pubDate>Sun, 03 Sep 2023 17:28:59 +0800</pubDate>
+      
+      <guid>https://dingawm.github.io/tags/array/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data structure</title>
+      <link>https://dingawm.github.io/tags/data-structure/</link>
+      <pubDate>Sun, 03 Sep 2023 17:28:59 +0800</pubDate>
+      
+      <guid>https://dingawm.github.io/tags/data-structure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://dingawm.github.io/tags/go/</link>
+      <pubDate>Sun, 03 Sep 2023 17:28:59 +0800</pubDate>
+      
+      <guid>https://dingawm.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>slice</title>
+      <link>https://dingawm.github.io/tags/slice/</link>
+      <pubDate>Sun, 03 Sep 2023 17:28:59 +0800</pubDate>
+      
+      <guid>https://dingawm.github.io/tags/slice/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>db</title>
       <link>https://dingawm.github.io/tags/db/</link>
@@ -31,15 +67,6 @@
       <pubDate>Sat, 26 Aug 2023 22:37:42 +0800</pubDate>
       
       <guid>https://dingawm.github.io/tags/ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>go</title>
-      <link>https://dingawm.github.io/tags/go/</link>
-      <pubDate>Wed, 14 Jun 2023 18:40:40 +0800</pubDate>
-      
-      <guid>https://dingawm.github.io/tags/go/</guid>
       <description></description>
     </item>
     
